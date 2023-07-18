@@ -9,7 +9,7 @@ public class JdbcProject {
     private static Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
-        // Assuming you have initialized the 'connection' object to establish a database connection
+      
 
     	Connection connection = null;
     	Statement statement = null;
@@ -37,7 +37,7 @@ public class JdbcProject {
             statement.executeUpdate("CREATE TABLE IF NOT EXISTS student (id INT PRIMARY KEY, name VARCHAR(50), age INT)");
             
 
-            // Create a menu loop
+         
             boolean exit = false;
 
             while (!exit) {
