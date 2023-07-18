@@ -152,7 +152,7 @@ public class JdbcProject {
             System.out.println("Student with ID " + id + " does not exist.");
         }
 
-        // Close the result set
+    
         checkResultSet.close();
     }
 
